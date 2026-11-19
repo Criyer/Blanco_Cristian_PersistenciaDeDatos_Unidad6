@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Navigation_BlancoCristian"
+rootProject.name = "Blanco_Cristian_PersistenciaDeDatos_Unidad6"
 include(":app")

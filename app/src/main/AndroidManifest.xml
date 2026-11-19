@@ -28,6 +28,10 @@
         <activity android:name=".SearchByTitleActivity" android:exported="false" />
         <activity android:name=".DetailsActivity" android:exported="false" />
 
+        <!-- Actividades de Persistencia (SQLite) -->
+        <activity android:name=".ModifyMealListActivity" android:exported="false" />
+        <activity android:name=".EditMealActivity" android:exported="false" />
+
     </application>
 
 </manifest>

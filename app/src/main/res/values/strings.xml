@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Navigation_BlancoCristian</string>
-    <string name="meals_menu">Meals menu</string>
-    <string name="options">Options</string>
-    <string name="add_meals">Add meals</string>
-    <string name="delete_meals">Delte meals</string>
-    <string name="list_all_meals">List all meals</string>
-    <string name="list_meals_by_title">List meals by title</string>
-    <string name="list_of_all_meals">List of all meals</string>
-    <string name="list_of_meals_by_title">List of meals by title</string>
+    <string name="app_name">Blanco_Cristian_PersistenciaDeDatos_Unidad6</string>
+    <string name="meals_menu">Menú de comidas</string>
+    <string name="options">Opciones</string>
+    <string name="add_meals">Añadir comida</string>
+    <string name="delete_meals">Eliminar comida</string>
+    <string name="list_all_meals">Listar todas las comidas</string>
+    <string name="list_meals_by_title">Buscar comida por título</string>
+    <string name="modify_meal">Modificar comida</string>
+    <string name="list_of_all_meals">Listado de comidas</string>
+    <string name="list_of_meals_by_title">Buscar comida por título</string>
 
-    <string name="complete_data">Complete the data</string>
-    <string name="meal_title">Meal title</string>
-    <string name="category">Category</string>
-    <string name="meal_description">Meal description</string>
-    <string name="save">Save</string>
+    <string name="complete_data">Completa los datos</string>
+    <string name="modify_meal_title">Modificar comida</string>
+    <string name="meal_title">Título de la comida</string>
+    <string name="category">Categoría</string>
+    <string name="meal_description">Descripción de la comida</string>
+    <string name="save">Guardar</string>
+    <string name="save_changes">Guardar cambios</string>
 
-    <string name="title_label">Title</string>
-    <string name="category_label">Category</string>
-    <string name="description_label">Description</string>
+    <string name="title_label">Título</string>
+    <string name="category_label">Categoría</string>
+    <string name="description_label">Descripción</string>
 
-    <string name="delete">Delete</string>
-    <string name="search">Search</string>
-    <string name="see_details">See details</string>
-    <string name="meal_with_description">Meal with its description</string>
+    <string name="delete">Eliminar</string>
+    <string name="search">Buscar</string>
+    <string name="see_details">Ver detalles</string>
+    <string name="meal_with_description">Comida y su descripción</string>
     <string name="back_button_desc">Atrás</string>
+
+    <!-- Mensajes de feedback -->
+    <string name="fill_all_fields">Por favor, completa todos los campos</string>
+    <string name="meal_added_successfully">Comida agregada con éxito</string>
+    <string name="meal_modified_successfully">Comida modificada con éxito</string>
+    <string name="meal_deleted_successfully">Comida eliminada con éxito</string>
+    <string name="select_meal_first">Por favor, selecciona una comida</string>
+    <string name="no_meals_found">No se encontraron comidas</string>
+    <string name="error_saving">Error al guardar en la base de datos</string>
 </resources>

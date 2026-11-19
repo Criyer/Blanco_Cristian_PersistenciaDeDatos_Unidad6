@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_orange">#FE8D00</color>
-    <color name="button_yellow">#FED707</color>
-    <color name="background_light">#FFFFFF</color>
-    <color name="text_dark">#000000</color>
+    <!-- Paleta de colores personalizada (Gourmet Teal & Warm Amber) -->
+    <color name="primary_orange">#00897B</color>
+    <color name="primary_teal_dark">#00695C</color>
+    <color name="button_yellow">#FFB300</color>
+    <color name="background_light">#FAFAFA</color>
+    <color name="text_dark">#1A202C</color>
+    <color name="text_white">#FFFFFF</color>
 </resources>

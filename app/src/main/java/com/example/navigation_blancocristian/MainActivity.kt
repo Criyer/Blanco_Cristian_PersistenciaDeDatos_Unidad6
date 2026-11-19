@@ -10,24 +10,24 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnAdd = findViewById<Button>(R.id.btnAddMeals)
-        btnAdd.setOnClickListener {
+        findViewById<Button>(R.id.btnAddMeals).setOnClickListener {
             startActivity(Intent(this, AddMealsActivity::class.java))
         }
 
-        val btnDelete = findViewById<Button>(R.id.btnDeleteMeals)
-        btnDelete.setOnClickListener {
+        findViewById<Button>(R.id.btnDeleteMeals).setOnClickListener {
             startActivity(Intent(this, DeleteMealActivity::class.java))
         }
 
-        val btnListAll = findViewById<Button>(R.id.btnListAllMeals)
-        btnListAll.setOnClickListener {
+        findViewById<Button>(R.id.btnListAllMeals).setOnClickListener {
             startActivity(Intent(this, ListMealsActivity::class.java))
         }
 
-        val btnListTitle = findViewById<Button>(R.id.btnListMealsByTitle)
-        btnListTitle.setOnClickListener {
+        findViewById<Button>(R.id.btnListMealsByTitle).setOnClickListener {
             startActivity(Intent(this, SearchByTitleActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.btnModifyMeal).setOnClickListener {
+            startActivity(Intent(this, ModifyMealListActivity::class.java))
         }
     }
 }
